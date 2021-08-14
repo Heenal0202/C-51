@@ -1,0 +1,52 @@
+h1 {
+    color: white;
+    font-family: Calibri;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item{
+    width: 310px;
+
+}
+
+.item img{
+
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+body{
+   background-color: #808080;
+
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
